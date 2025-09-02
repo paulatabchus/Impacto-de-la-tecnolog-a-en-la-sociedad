@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+body{ background-color: rgb(255, 234, 253);
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace
+    }
+    p{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    text-align: justify;
+    }
+    h1{ color: rgb(166, 135, 179);
+    font-family:'Courier New', Courier, monospace
+    }
+    ul{ color: ;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    ol{color: rgb(79, 57, 88);
+    font-family:'Courier New', Courier, monospace;
+    }
+  table {
+      width: 50%;
+      border-collapse: collapse;
+      margin-top: 20px;
+     }
+       th, td {
+      border: 1px solid rgb(118, 95, 122);
+      padding: 10px;
+      text-align: left;
+      }
+      th {
+      background-color: #f0dcf3;
+      }
+      .nav-enlace{
+        display:inline-block;
+        background-color: rgb(165, 113, 184);
+        color: #fff;
+        padding: 10px 30px;
+        text-decoration: none;
+    }
+    .nav-enlace:hover{
+        background-color: rgb(181, 144, 195);
+    }
+    nav{
+        background-color: rgb(51, 63, 153);
+        padding:10px;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    header, section, footer {
+        padding: 20px;
+        color: rgb(191, 171, 198);
+    }
+    header{
+        border: 2px solid rgb(39, 46, 124);
+        background-color: rgb(80, 153, 255);
+    }
+    section{
+        border: 2px solid rgb(31, 51, 84);
+        background-color: antiquewhite;
+        min-height: 200px;
+    }
+    footer{
+        border: 2px solid rgb(0, 0, 0);
+        background-color: darkslategray;
+        text-align: center;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 100vh;
+    }
+    section {
+        border: #333;
+        padding:  20px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        }
+    .s1 {background-color: aliceblue;}
+    .s2 { background-color: rgb(169, 137, 192);}
+    .s3 { background-color: rgb(61, 71, 113);}
+    .s3 { background-color: rgb(127, 131, 255);}
+    <form >
+        <h2>BIENVENIDO</h2>
+        <input type="text" placeholder="Nombre">
+        <input type="text" placeholder="Apellido">
+        <input type="text" placeholder="Dirección">
+        <input type="email" placeholder="Correo">
+        <input class="btn" type="submit" value="Enviar">
+    </form>
+</body>
+</html>
