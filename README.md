@@ -1,1 +1,1 @@
-# Impacto-de-la-tecnolog-a-en-la-sociedad
+# Impacto-de-la-tecnología-en-la-sociedad
